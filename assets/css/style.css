@@ -93,11 +93,55 @@ hr {
 	background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url('../img/la_background.jpg') center center fixed no-repeat;
 	background-size: cover;
 	padding-top: 30px;
-	height: 500px;
+	height: 600px;
 }
 
 #hero .well {
 	margin-top: 20px;
+}
+
+#services {
+	padding: 40px 20px;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.circle-icon {
+	height: 80px;
+	width: 80px;
+	padding: 25px;
+	border-radius: 50%;
+	background-color: #337ab7;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.f-icon {
+	text-align: center;
+}
+
+#services div .row:before,
+#services div .row:after,
+#services .container:before,
+#services .container:after {
+   content: normal; // IE doesn't support `initial`
+   display: inline-block;
+}
+
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%; /*not always necessary*/
+}
+
+.service p {
+	padding: 15px;
 }
 
 .footer_logo {
