@@ -21,8 +21,8 @@ h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h3 {
-	color: #97974a;
+h3, h4 {
+	color: #8f8f47;
 }
 
 .logo {
@@ -36,6 +36,7 @@ h3 {
 
 hr {
 	border-top: 1px solid #5b800d;
+	margin: 0;
 }
 
 .navbar {
@@ -85,23 +86,31 @@ hr {
   background-color: rgba(0,0,0,0);
 }
 
-.fa-laptop {
+.fa-mike {
+	padding: 40px;
 	font-size: 4em;
 }
 
 #hero {
-	background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url('../img/la_background.jpg') center center fixed no-repeat;
-	background-size: cover;
+	background: url('../img/ignasi_pattern_s.png') repeat ;
 	padding-top: 30px;
-	height: 600px;
+	min-height: 100%;
+	padding-bottom: 30px;
 }
 
-#hero .well {
-	margin-top: 20px;
+#hero-image {
+	color: #3e3d3d;
+}
+
+#la_background, #building {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
 }
 
 #services {
-	padding: 40px 20px;
+	padding: 40px 40px;
 }
 
 h4 {
@@ -114,7 +123,7 @@ h4 {
 	width: 80px;
 	padding: 25px;
 	border-radius: 50%;
-	background-color: #337ab7;
+	background-color: #194c78;
 	color: white;
 	font-size: 2em;
 	text-align: center;
