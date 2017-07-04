@@ -16,9 +16,12 @@ body {
   text-rendering: optimizelegibility;
 }
 
+h1, .tel {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 h1 {
 	font-size: 3em;
-	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h3, h4 {
@@ -96,6 +99,10 @@ hr {
 	padding-top: 30px;
 	min-height: 100%;
 	padding-bottom: 30px;
+}
+
+#hero hr {
+	padding-bottom: 20px;
 }
 
 #hero-image {
