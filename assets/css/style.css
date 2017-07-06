@@ -109,6 +109,10 @@ hr {
 	color: #3e3d3d;
 }
 
+.carousel-img {
+	width: auto;
+}
+
 #la_background, #building {
 	display: none;
 	height: 100%;
@@ -117,7 +121,7 @@ hr {
 }
 
 #services {
-	padding: 40px 40px;
+	padding: 40px 5px;
 }
 
 h4 {
@@ -158,9 +162,15 @@ h4 {
 
 .service p {
 	padding: 15px;
+	margin-bottom: 30px;
 }
 
 .footer_logo {
 	height: 50px;
 	margin: 40px auto;
+}
+
+.d-block {
+	height: 200px;
+	width: 600px;
 }
