@@ -163,6 +163,24 @@ h4 {
 	margin-bottom: 30px;
 }
 
+.price {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#pricing {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#pricing .well {
+	background: url('../img/ignasi_pattern_s.png') repeat ;
+}
+
+#pricing h4, #pricing .price {
+	text-align: center;
+}
+
 .footer_logo {
 	height: 50px;
 	margin: 40px auto;
@@ -179,4 +197,27 @@ h4 {
 .d-block {
 	height: 200px;
 	width: 600px;
+}
+
+@media screen and (max-width:500px) {
+	#navigation li a {
+		text-align: center;
+	}
+
+	.footer-nav a {
+		display: block;
+	}
+
+	.circle-icon {
+		height: 40px;
+		width: 40px;
+		font-size: 1em;
+		text-align: center;
+		padding: 10px;
+		line-height: 25px;
+	}
+
+	.dev {
+		margin: 20px;
+	}
 }
